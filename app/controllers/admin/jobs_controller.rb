@@ -6,6 +6,10 @@ class Admin::JobsController < ApplicationController
     @job = Job.find(params[:id])
   end
 
+  def new
+    @job = Job.new
+  end
+  
   def index
     @jobs = Job.all
   end
