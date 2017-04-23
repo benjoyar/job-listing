@@ -15,8 +15,9 @@ class Admin::JobsController < ApplicationController
     @jobs = Job.all
   end
 
-  def created
+  def create
     @job = Job.new(job_params)
+    @job.user = current_user
     if @job.save
       redirect_to admin_jobs_path
     else
@@ -53,7 +54,7 @@ class Admin::JobsController < ApplicationController
   def hide
     @job = Job.find(params[:id])
     @job.hide!
-    
+
     redirect_to :back
   end
 
