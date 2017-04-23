@@ -89,33 +89,40 @@
 }
 
 
-  //------------------首页加头图----------------------------
-.jumbotron {
-  background-image:url('http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-542213.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 110px;
-}
+//---------Box---------
 
-.title {
-  font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
-  text-align: center;
-  margin-top: 200px;
-  margin-bottom: 80px;
-}
+.box {
+    background-image: url("http://ww1.sinaimg.cn/large/006tNbRwgy1fewhwfg6l7j30sg0aeaao.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
 
-.slogan {
-  margin-top: 10px;
-  margin-bottom: 50px;
-  text-align: center;
-  color: white;
-  top: 12px;
-}
+    .box-inner {
+        background-color: rgba(250, 250, 250, 0.69);
+        padding-bottom: 5px;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
 
-.lead {
-  margin-bottom: 60px;
-  text-align: center;
-  color: white;
+    .title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .slogan {
+        color: #222;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 25px;
+        top: 12px;
+    }
+
+    .lead {
+        margin-bottom: 60px;
+        text-align: center;
+        color: white;
+    }
 }
 
   //------------------首页头图下方信息----------------------------
