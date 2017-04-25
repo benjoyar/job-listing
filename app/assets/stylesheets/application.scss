@@ -26,7 +26,7 @@
 
    border-color: #CFD8DC; //边框色
 
-   margin-bottom: 0; //底部 margin 不撑开距离
+  //  margin-bottom: 0; //底部 margin 不撑开距离
 }
 
 @media (min-width: 768px) {
@@ -96,6 +96,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
+    margin-top: -20px;
 
     .box-inner {
 
