@@ -285,3 +285,14 @@ html { height: 100%;}
 .login-help{
   font-size: 12px;
 }
+
+//---------navbar搜索框大小------------
+#search-id {
+width: 200px;
+padding-top: 7px;
+}
+
+//--------navbar搜索框margin-----------
+.nav-search{
+  margin-right: 50px;//让搜索框与注册登录按钮隔开一定距离
+}
