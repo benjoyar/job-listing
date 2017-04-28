@@ -11,7 +11,7 @@
         <!-- 在导航栏加入搜索框 -->
         <li>
           <div class="nav-search">
-            <%= form_tag "#" , :method => :get  do %>
+            <%= form_tag search_jobs_path , :method => :get do %>
               <div class="input-group" id="search-id" >
                 <input type="text" class="form-control" name="q" value="<%= params[:q] %>" placeholder="请输入职缺">
                 <div class="input-group-btn">
