@@ -1,10 +1,14 @@
-<h3> 投交履历到 <%= @job.title %> </h3>
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <h3> 投交履历到 <%= @job.title %> </h3>
 
-<hr>
+    <hr>
 
-<%= simple_form_for [@job, @resume] do |f| %>
-  <%= f.input :content %>
-  <%= f.input :attachment %>
-  
-  <%= f.submit "送出" %>
-<% end %>
+    <%= simple_form_for [@job, @resume] do |f| %>
+      <%= f.input :content %>
+      <%= f.input :attachment %>
+
+      <%= f.submit "送出" %>
+    <% end %>
+  </div>
+</div>
