@@ -208,6 +208,18 @@ width: 200px;
 padding-top: 7px;
 }
 
+//---------navbar search----------
+.input-group input {
+  background: rgb(221,228,230);
+  color: #388E3C;
+  border-width: 0;
+}
+
+.btn-search {
+  background-color: rgb(221,228,230);
+  color: #388E3C;
+}
+
 //--------navbar搜索框margin-----------
 .nav-search{
   margin-right: 50px;//让搜索框与注册登录按钮隔开一定距离
