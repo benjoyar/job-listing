@@ -326,7 +326,7 @@ padding-top: 7px;
 }
 
 h2.section-title {
-    color: #4C4C4C;
+    color: #004D40;
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: 700;
@@ -351,10 +351,6 @@ h2.section-title {
     position: relative;
 }
 
-div {
-    display: block;
-}
-
 .text-center {
     text-align: center;
 }
@@ -363,20 +359,6 @@ div {
     padding-bottom: 160px;
     padding-top: 60px;
     color: #666;
-}
-
-body {
-    overflow-x: hidden;
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-}
-
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333333;
-    background-color: #fff;
 }
 
 .talk-about-us .carousel-indicators {
@@ -395,15 +377,9 @@ body {
     text-align: center;
 }
 
-ul, ol {
+ol {
     margin-top: 0;
     margin-bottom: 10px;
-}
-
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 ol {
@@ -414,12 +390,6 @@ ol {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     -webkit-padding-start: 40px;
-}
-
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 .talk-about-us .carousel-indicators>li {
@@ -449,7 +419,7 @@ ol {
     width: 80px;
     height: 80px;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 50%;//照片以圆形显示，若改为20%则会变成方形照片四角为圆形倒角。
     border: 2px solid #ccc;
     margin-bottom: 10px;
 }
